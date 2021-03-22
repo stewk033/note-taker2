@@ -33,20 +33,6 @@ const getNotes = () =>
     },
   });
 
-//   fetch(queryUrl)
-//   .then(response => {
-//     if (!response.ok) {
-//       return alert('Error: ' + response.statusText);
-//     }
-//     return response.json();
-//   })
-//   .then(animalData => {
-//     console.log(animalData);
-//     printResults(animalData);
-//   });
-// };
-
-
 const saveNote = (note) =>
   fetch('/api/notes', {
     method: 'POST',
@@ -182,29 +168,6 @@ const renderNoteList = async (notes) => {
 };
 
 const getAndRenderNotes = () => getNotes().then(renderNoteList)
-
-// Gets notes from the db and renders them to the sidebar
-// const getAndRenderNotes = () => getNotes().then(response => {
-//     if (!response.ok) {
-//       return aler('Error: ' + response.statusText);
-//     }
-//     return response.json();
-//   })
-//   .then(data => {
-//     console.log(data);
-//   })
-
-
-// .then(response => {
-//   if (!response.ok) {
-//     return alert('Error: ' + response.statusText);
-//   }
-//   return response.json();
-// })
-// .then(animalData => {
-//   console.log(animalData);
-//   printResults(animalData);
-// });
 
 if (window.location.pathname === '/notes') {
   saveNoteBtn.addEventListener('click', handleNoteSave);
