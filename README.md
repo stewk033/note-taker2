@@ -28,8 +28,8 @@ In this assignment I was tasked with creating an application called Note Taker t
 
 Live URL: https://evening-everglades-20943.herokuapp.com/
 
-![SCREENSHOT]()
-![SCREENSHOT]()
+![SCREENSHOT](https://github.com/stewk033/note-taker/blob/main/images/notetaker1.JPG)
+![SCREENSHOT](https://github.com/stewk033/note-taker/blob/main/images/notetaker2.JPG)
 
 ## Credits
 
